@@ -3,7 +3,8 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
-    "lint": "turbo run lint"
+    "lint": "turbo run lint",
+    "api": "pnpm --filter server"
   },
   "devDependencies": {
     "@nestjs/cli": "^9.1.3",
