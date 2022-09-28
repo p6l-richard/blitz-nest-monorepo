@@ -4,7 +4,8 @@
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
-    "api": "pnpm --filter server"
+    "api": "pnpm --filter server",
+    "web": "pnpm --filter web"
   },
   "devDependencies": {
     "@nestjs/cli": "^9.1.3",
